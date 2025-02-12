@@ -1,12 +1,25 @@
 # TEORIA
 import math 
+
 # Na classe de string temos algumas funções específicas para esta classe 
-nome = "Guilherme" 
-print(nome.lower()) # transforma tudo em minusculo
-print(nome.upper()) # transforma tudo em maiusculo 
-print(math.pi)
+#nome = "Guilherme" 
+#print(nome.lower()) # transforma tudo em minusculo
+#print(nome.upper()) # transforma tudo em maiusculo 
+#print(math.pi)
 
+# TypeError: erro de tipo, ou seja, quando utilizamos tipos de variáveis em funções de tipos diferentes 
+#try: 
+    #resultado = len(3)
+    #print(resultado)
+#except TypeError as e: 
+    #print(e)
 
+# Checar se a variavel e do tipo correto 
+numero = int(input("Insira um numero"))
+if isinstance (numero,int): 
+    print("É UM NUMERO INTEIRO")
+else: 
+    print("A variável nao é inteiro")
 # PRÁTICA 
 # #### Inteiros (`int`)
 
