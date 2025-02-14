@@ -51,19 +51,30 @@
 # como `log = {'timestamp': '2021-06-23 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}`, 
 # escreva um programa que imprima a mensagem se a severidade for 'ERROR'.
 
-log_1 = {'timestamp': '2021-06-23 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}
-log_2 = {'timestamp': '2021-06-24 10:00:00', 'level': 'NOT', 'message': 'NOT'}
-log_3 = {'timestamp': '2021-06-25 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}
+# log_1 = {'timestamp': '2021-06-23 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}
+# log_2 = {'timestamp': '2021-06-24 10:00:00', 'level': 'NOT', 'message': 'NOT'}
+# log_3 = {'timestamp': '2021-06-25 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}
 
-dicionario_logs = []
+# dicionario_logs = []
 
-dicionario_logs.append(log_1)
-dicionario_logs.append(log_2)
-dicionario_logs.append(log_3)
+# dicionario_logs.append(log_1)
+# dicionario_logs.append(log_2)
+# dicionario_logs.append(log_3)
 
 
-print(dicionario_logs["level" == "ERROR"]) #mostra o primeiro log com registro de erro 
+# print(dicionario_logs["level" == "ERROR"]) #mostra o primeiro log com registro de erro 
 
-logs_error = [log for log in dicionario_logs if log['level'] == 'ERROR']
+# logs_error = [log for log in dicionario_logs if log['level'] == 'ERROR']
 
-print(logs_error)
+# print(logs_error) # traz o registro de todos os logs contendo o erro 
+
+### Exercício 9. Extração de Subconjuntos de Dados
+# Objetivo:** Dada uma lista de números, extrair apenas aqueles que são pares.
+
+list_numero = []
+list_numero.extend(range(0,9)) # inclusao de 0 a 8 
+
+numeros_pares = [numero for numero in list_numero if numero % 2 == 0]
+
+print(numeros_pares)
+
