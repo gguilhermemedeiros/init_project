@@ -56,8 +56,8 @@
 
 ### Exercício 12. Validação de Entrada
 # Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
-numero = ""
+# numero = ""
 
-while numero not in (5,10): 
-    numero = int(input("Forneça um numero: "))
-    print("Dados Inválidos")
+# while numero not in (5,10): 
+#     numero = int(input("Forneça um numero: "))
+#     print("Dados Inválidos")
