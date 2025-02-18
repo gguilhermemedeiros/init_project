@@ -71,10 +71,10 @@
 ### Exercício 9. Extração de Subconjuntos de Dados
 # Objetivo:** Dada uma lista de números, extrair apenas aqueles que são pares.
 
-list_numero = []
-list_numero.extend(range(0,9)) # inclusao de 0 a 8 
+# list_numero = []
+# list_numero.extend(range(0,9)) # inclusao de 0 a 8 
 
-numeros_pares = [numero for numero in list_numero if numero % 2 == 0]
+# numeros_pares = [numero for numero in list_numero if numero % 2 == 0]
 
-print(numeros_pares)
+# print(numeros_pares)
 

@@ -1,0 +1,4 @@
+nome, quantidade, preco, disponibilidade
+Luciano, 10, 10.3, true
+Guilherme, 8, 10.7, false
+Joao, 10, 11, false
